@@ -18,12 +18,17 @@ Then, convert the passing time to integer which represents the passed minutes in
 
 Finally, return the result.
 
-## : getTime(String time, int offsetInMinute)
+## Project Structure
 
-* Class: `com.xiangwei.test.TimeUtil`.
+Class: `com.xiangwei.test.TimeUtil`.
+
+Test class: `com.xiangwei.test.TimeUtilTests`.
+
+Method: `getTime(String time, int offsetInMinute)` in TimeUtil.
+
 * Passing parameters
-   - `time` - A time string, throw exception of `IllegalArgumentException` if it's invalid.
-   - `offsetInMinute` - A integer of offset in minute.
+	- `time` - A time string, throw exception of `IllegalArgumentException` if it's invalid.
+	- `offsetInMinute` - A integer of offset in minute.
 
 * Return a time string or throw `IllegalArgumentException`.
 
