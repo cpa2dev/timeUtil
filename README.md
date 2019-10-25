@@ -14,7 +14,7 @@ First, validate passing time with regex matching, throw an exception if it's inv
 
 Second, check passing minute offset, return the passing time directly if it's zero or N times of day minutes(60*24).
 
-Then, convert the passing time to integer which represents the passed minutes in a day, the range will be `0 ~ 24*60`, and then add the minutes offset, then convert it back to time string, there are some corner cases need to handle properly.
+Then, convert the passing time to integer which represents the passed minutes in a day, the range will be `0 ~ 24*60`, add the minutes offset, then convert it back to time string, there are some corner cases in the converter methods needed to be handle properly.
 
 Finally, return the result.
 
