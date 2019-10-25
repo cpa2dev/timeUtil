@@ -20,6 +20,7 @@ Finally, return the result.
 
 ## : getTime(String time, int offsetInMinute)
 
+* Class: `com.xiangwei.test.TimeUtil`.
 * Passing parameters
    - `time` - A time string, throw exception of `IllegalArgumentException` if it's invalid.
    - `offsetInMinute` - A integer of offset in minute.
