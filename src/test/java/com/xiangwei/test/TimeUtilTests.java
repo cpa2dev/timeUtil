@@ -23,6 +23,8 @@ public class TimeUtilTests {
 
     @Test
     public void testValidateValidTime() {
+        assertTrue(timeUtil.isValidTime("0:00 AM"));
+        assertTrue(timeUtil.isValidTime("0:23 AM"));
         assertTrue(timeUtil.isValidTime("1:23 AM"));
         assertTrue(timeUtil.isValidTime("2:00 AM"));
         assertTrue(timeUtil.isValidTime("12:23 AM"));

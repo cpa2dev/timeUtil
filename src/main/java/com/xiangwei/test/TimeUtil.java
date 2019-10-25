@@ -57,7 +57,7 @@ public class TimeUtil {
             return false;
         }
 
-        String regex = "([1-9]|1[0-2]):[0-5][0-9] (AM|PM)";
+        String regex = "([0-9]|1[0-2]):[0-5][0-9] (AM|PM)";
         return time.trim().matches(regex);
     }
 
